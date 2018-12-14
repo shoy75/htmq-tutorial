@@ -5,7 +5,32 @@ body {
   line-height: 1.5;
   color: #333333;
 }
+
+/*====================
+メインメニュー
+====================*/
+ul#menu {
+  width: 960px;
+  height: 50px;
+}
 #menu li {
   list-style-type: none;
   display: inline;
+  float: left;
+}
+#menu li a {
+  background-color: navy;
+  color: #ffffff;
+  display: block;
+  width: 240px;
+  height: 35px;
+  padding: 15px 0px 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  background-image: url(images/bg_menu1.png);
+  background-repeat: no-repeat;
+}
+#menu li a:hover {
+  background-color: #000066;
+  background-image: url(images/bg_menu2.png);
 }
