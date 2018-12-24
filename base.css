@@ -21,6 +21,24 @@ div#pagebody {
   background-image: url("images/bg_pagebody.png");
   background-repeat: repeat-y;
 }
+img {
+  border: 0;
+}
+
+/*====================
+ヘッダ
+====================*/
+div#header {
+  height: 80px;
+}
+div#header h1 {
+  padding: 10px 0px 5px 20px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div#header h1 a {
+  text-decoration: none;
+}
 
 /*====================
 メインメニュー
@@ -50,4 +68,13 @@ ul#menu {
 #menu li a:hover {
   background-color: #000066;
   background-image: url(images/bg_menu2.png);
+}
+
+/*====================
+ヘッダ画像
+====================*/
+#img_index {
+  width: 960px;
+  height: 360px;
+  margin: 5px 20px;
 }
