@@ -1,9 +1,22 @@
 @charset "utf-8";
+/*====================
+全般的なスタイル
+====================*/
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
+  background-color: #cccccc;
   font-size: 95%;
   font-family: "MSゴシック", sans-serif;
   line-height: 1.5;
   color: #333333;
+}
+div#pagebody {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #ffffff;
 }
 
 /*====================
@@ -12,6 +25,7 @@ body {
 ul#menu {
   width: 960px;
   height: 50px;
+  margin: 0px 20px;
 }
 #menu li {
   list-style-type: none;
