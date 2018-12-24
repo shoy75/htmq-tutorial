@@ -8,6 +8,7 @@
 }
 body {
   background-color: #cccccc;
+  background-image: url("images/bg_body.png");
   font-size: 95%;
   font-family: "MSゴシック", sans-serif;
   line-height: 1.5;
@@ -17,6 +18,8 @@ div#pagebody {
   width: 1000px;
   margin: 0 auto;
   background-color: #ffffff;
+  background-image: url("images/bg_pagebody.png");
+  background-repeat: repeat-y;
 }
 
 /*====================
