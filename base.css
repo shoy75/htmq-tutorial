@@ -84,7 +84,27 @@ ul#menu {
 ====================*/
 div#submenu {
   width: 260px;
+  margin: 10px 10px 10px 25px;
   float: left;
+}
+div#submenu ul li {
+  list-style-type: none;
+}
+div#submenu ul li a {
+  display: block;
+  height: 45px;
+  padding: 15px 0px 0px 30px;
+  text-decoration: none;
+  border-bottom: 1px dotted gray;
+  background-image: url(images/bg_submenu.png);
+  background-repeat: no-repeat;
+  color: #333333;
+}
+div#submenu ul li:first-child a {
+  border-top: 1px dotted gray;
+}
+div#submenu ul li a:hover {
+  text-decoration: underline;
 }
 
 /*====================
