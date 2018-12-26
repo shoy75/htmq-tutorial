@@ -160,8 +160,24 @@ h3 {
   margin: 0px 0px 20px 20px;
   float: right;
 }
+.infoimg_subpage {
+  width: 400px;
+  height: 300px;
+  margin: 0px 20px 20px 0px;
+  float:left;
+}
 hr {
   clear: both;
+}
+
+/*====================
+備考情報
+====================*/
+div.remarks {
+  margin: 0px 10px 10px 10px;
+}
+h4 {
+  color: #000066;
 }
 
 /*====================
