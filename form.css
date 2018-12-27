@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/*====================
+入力フォーム
+====================*/
+#form1 input, #form1 textarea {
+  font-size: 16px;
+  border: 1px solid #999999;
+  padding: 2px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1) inset;
+}
+#form1 input:focus, #form1 textarea:focus {
+  box-shadow: 0px 0px 5px 2px #ccccee;
+  outline-style: none;
+}
+#form1 p input {
+  width: 300px;
+  height: 40px;
+  border: 0;
+}
+#form1 p {
+  text-align: center;
+  text-indent: 0;
+}
+input[type="text"],input[type="email"] {
+  width: 70%;
+}
