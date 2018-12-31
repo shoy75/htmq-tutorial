@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/*====================
+全体的なスタイル
+====================*/
+body {
+  background-color: #fff;
+  color: #000;
+}
+div#pagebody {
+  width: 100%;
+}
+
+/*====================
+メインメニュー
+====================*/
+ul#menu, #img_index, #img_subpage, div#submenu, div#footer {
+  display: none;
+}
+
+/*====================
+インフォメーション(右カラム)
+====================*/
+.infoimg_index {
+  width: 200px;
+  height: 150px;
+  margin: 0 0 20px 20px;
+  float: right;
+}
+.infoimg_subpage {
+  width: 400px;
+  height: 300px;
+  margin: 0 20px 20px 0;
+  float:left;
+}
