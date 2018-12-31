@@ -1,5 +1,144 @@
 @charset "utf-8";
 
-h1 {
-  background-color: red;
+/*====================
+全般的なスタイル
+====================*/
+body {
+  width: 100%;
+  background-color: #fff;
+  background-image: none;
+  font-size: 100%;
+}
+div#pagebody {
+  width: 100%;
+  margin: 0 auto;
+  background-image: none;
+  background-repeat: no-repeat;
+}
+
+/*====================
+ヘッダ
+====================*/
+div#header {
+  height: 46px;
+}
+div#header h1 {
+  padding: 0px;
+}
+div#header img {
+  width: 320px;
+  height: 46px;
+}
+
+/*====================
+メインメニュー
+====================*/
+ul#menu {
+  width: 100%;
+  margin: 0px;
+}
+#menu li a {
+  background-color: #fff;
+  color: blue;
+  width: 90px;
+  height: 45px;
+  padding: 15px 0 0 60px;
+  background-image: url(images/icon_menu.png);
+  background-repeat: no-repeat;
+  font-size: 120%
+}
+#menu li a:hover {
+  background-color: #fff;
+  background-image: url(images/icon_menu.png);
+}
+
+/*====================
+ヘッダ画像
+====================*/
+#img_index {
+  display: none;
+}
+#img_subpage {
+  display: none;
+}
+
+/*====================
+サブメニュー
+====================*/
+h2 {
+  width: 100%;
+  height: 40px;
+  padding: 15px 0 0 10px;
+  font-size: 16px;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-color: #000033;
+  color: #fff;
+  clear: both;
+}
+div#submenu {
+  width: 100%;
+  margin: 0px;
+  float: none;
+}
+div#submenu ul li a {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 15px 0 0 10px;
+  text-decoration: none;
+  border-bottom: 1px dotted gray;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-color: #ccc;
+  color: #000;
+}
+
+/*====================
+インフォメーション
+====================*/
+div#info {
+  width: 100%;
+  float: none;
+  padding: 0px;
+}
+h3 {
+  font-size: 14px;
+  width: 100%;
+  margin: 10px 0 0 0;
+  padding: 10px 0 10px 10px;
+  background-color: #003399;
+  color: #fff;
+  border-radius: 0px;
+}
+p {
+  width: 95%;
+  margin: 10px;
+  text-indent: 1em;
+}
+.infoimg_index {
+  display: block;
+  width: 300px;
+  height: 225px;
+  margin: 0 0 20px 0;
+  float: none;
+}
+.infoimg_subpage {
+  display: block;
+  width: 300px;
+  height: 225px;
+  margin: 0 0 20px 0;
+  float: none;
+}
+.infoimg_tel {
+  display: block;
+  width: 300px;
+  height: 60px;
+  margin: 0 0 20px 0;
+}
+hr {
+  clear: both;
+  width: 100%;
+  margin: 10px 0;
+  border: 1px dotted #ccc;
 }
